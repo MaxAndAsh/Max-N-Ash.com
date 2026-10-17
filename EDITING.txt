@@ -1,0 +1,9 @@
+MAX'N'ASH WEBSITE UPDATE
+
+Included: new chibi logo at the top, two rotating background photos (changes every 30 seconds), music players, and Instagram contact flow.
+
+CONTACT: A static website cannot send a visitor's typed message directly into Instagram DMs. The form copies/prepares the message and opens your Instagram profile; the visitor must paste it into a DM and press Send.
+
+MUSIC DOWNLOADS: The existing music entries are YouTube embeds. YouTube embed URLs do not provide a downloadable MP3 file. To offer direct downloads, place your own MP3 files in assets/music/ and add download links for them. No MP3 files were included in the source website package, so the existing music remains playable but direct MP3 downloads need the audio files.
+
+PUBLISH: Upload the contents of the maxash2 folder to the root of your GitHub Pages repository, replacing the old index.html, style.css, script.js and assets folder.
