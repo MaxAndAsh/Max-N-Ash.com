@@ -1,9 +1,7 @@
-MAX'N'ASH WEBSITE UPDATE
+MAX'N'ASH WEBSITE - FIXED PACKAGE
 
-Included: new chibi logo at the top, two rotating background photos (changes every 30 seconds), music players, and Instagram contact flow.
+This ZIP is arranged correctly for GitHub Pages: index.html, style.css, script.js, and the assets folder are all at the ZIP root. The image files are included and the page points to their exact filenames.
 
-CONTACT: A static website cannot send a visitor's typed message directly into Instagram DMs. The form copies/prepares the message and opens your Instagram profile; the visitor must paste it into a DM and press Send.
+PUBLISH ON GITHUB: Open your website repository, tap Add file / Upload files, upload index.html, style.css, script.js and the entire assets folder (including its three images). If asked, replace the existing files, then tap Commit changes. Do not upload the enclosing ZIP itself and do not put these files inside another folder.
 
-MUSIC DOWNLOADS: The existing music entries are YouTube embeds. YouTube embed URLs do not provide a downloadable MP3 file. To offer direct downloads, place your own MP3 files in assets/music/ and add download links for them. No MP3 files were included in the source website package, so the existing music remains playable but direct MP3 downloads need the audio files.
-
-PUBLISH: Upload the contents of the maxash2 folder to the root of your GitHub Pages repository, replacing the old index.html, style.css, script.js and assets folder.
+The contact form opens Instagram and prepares/copies a message. A static GitHub Pages site cannot directly send an Instagram DM automatically; the visitor still needs to paste/send the message. Music videos play using YouTube embeds. Direct MP3 downloads require your own MP3 files, which were not included in this package.
